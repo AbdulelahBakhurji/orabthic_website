@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://orabthic.com
+
+# Sitemaps
+Sitemap: https://orabthic.com/sitemap.xml

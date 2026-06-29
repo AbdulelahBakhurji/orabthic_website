@@ -1,0 +1,1065 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "solutions": "Solutions",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "requestDemo": "Request a Demo",
+    "signIn": "Sign In",
+    "languageToggle": "العربية"
+  },
+  "footer": {
+    "tagline": "Technology Across Every Domain",
+    "taglineAlt": "Technology Across Every Domain",
+    "description": "Healthcare, enterprise operations, workforce, and commerce technology — engineered as one portfolio.",
+    "products": {
+      "title": "Products",
+      "crm": "CRM",
+      "accounting": "Accounting",
+      "pos": "Point of Sale",
+      "inventory": "Inventory",
+      "orabthicNext": "Orabthic Health",
+      "comingSoon": "Coming Soon"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "careers": "Careers",
+      "press": "Press",
+      "partners": "Partners"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "hello@orabthic.com",
+      "phone": "+966 11 000 0000",
+      "address": "Saudi Arabia"
+    },
+    "copyright": "© {year} Orabthic. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "badges": {
+      "security": "Enterprise Security",
+      "privacy": "Privacy by Design"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Engineering-First Technology",
+      "headline": "Technology Across\nEvery Domain.",
+      "subheadline": "Orabthic builds healthcare platforms, enterprise software, cloud infrastructure, and integration layers — a portfolio of technology engineered for organizations that demand precision, not promises.",
+      "ctaExplore": "Explore Our Technology",
+      "ctaLearn": "About Orabthic",
+      "pillars": [
+        "Healthcare, operations, finance, and workforce technology",
+        "Cloud-native infrastructure and API-first architecture",
+        "Industry-specific platforms on unified engineering foundations"
+      ],
+      "ticker": [
+        "Healthcare",
+        "Enterprise",
+        "Cloud",
+        "APIs",
+        "Security",
+        "Workforce",
+        "Commerce",
+        "Compliance",
+        "Integration"
+      ]
+    },
+    "manifesto": {
+      "label": "Technology Vision",
+      "title": "Infrastructure-grade technology, across industries.",
+      "principlesLabel": "Core principles",
+      "paragraphs": [
+        "Orabthic engineers software across healthcare, enterprise operations, workforce management, and digital commerce — each product governed by shared infrastructure principles: canonical data, atomic transactions, and immutable audit surfaces.",
+        "Event-driven architectures propagate state across domains. Clinical records connect to billing. POS transactions commit inventory and ledger entries. Payroll runs post to finance — one engineering discipline, many technology surfaces.",
+        "Built for regulated industries and complex jurisdictions. Multi-entity, multi-currency, and compliance-native by design — whether the domain is a hospital, a retail network, or a manufacturing operation."
+      ],
+      "principles": [
+        {
+          "title": "Canonical Data Layer",
+          "desc": "Unified schema. Single write path. Immutable audit trail across every operational domain."
+        },
+        {
+          "title": "Synchronous Propagation",
+          "desc": "Sub-millisecond inter-module consistency. No batch jobs. No cross-department data lag."
+        },
+        {
+          "title": "Jurisdiction-Native Core",
+          "desc": "Tax engines, Zakat computation, and multi-currency ledger primitives embedded at the architecture level."
+        },
+        {
+          "title": "API-First Surface",
+          "desc": "OpenAPI-specified REST endpoints. Signed event webhooks. Integration as first-class infrastructure."
+        }
+      ]
+    },
+    "architecture": {
+      "label": "Engineering Domains",
+      "title": "How we build across the stack.",
+      "description": "From healthcare systems to enterprise operations — modular architecture, shared services, and infrastructure-grade reliability.",
+      "items": [
+        {
+          "title": "Healthcare Technology",
+          "description": "Orabthic Health and clinical infrastructure for hospitals, clinics, and health systems — patient records, billing, pharmacy, and compliance on one secure layer."
+        },
+        {
+          "title": "Enterprise Operations",
+          "description": "CRM, accounting, point of sale, and inventory operating on a unified data layer — real-time synchronization across every business function."
+        },
+        {
+          "title": "Workforce Technology",
+          "description": "Payroll, employee management, attendance, and HR workflows connected to finance and organizational structure."
+        },
+        {
+          "title": "Cloud Infrastructure",
+          "description": "Multi-region deployment with automatic failover. On-premise and private cloud options for regulated industries."
+        },
+        {
+          "title": "Integration Layer",
+          "description": "REST APIs, event webhooks, and custom connectors — technology that connects to the systems your organization already runs."
+        },
+        {
+          "title": "Advanced Security & Compliance",
+          "description": "Defense-in-depth architecture with encrypted data residency, role-based access control, and immutable audit trails — engineered for regulated enterprise environments."
+        }
+      ]
+    },
+    "products": {
+      "label": "Core Modules",
+      "title": "Four modules. One system.",
+      "subtitle": "Each module is a complete enterprise application. Together, they form an operational whole.",
+      "learnMore": "Learn more",
+      "products": {
+        "crm": {
+          "name": "CRM",
+          "nameAr": "إدارة علاقات العملاء",
+          "description": "Manage leads, pipelines, and customer relationships with full visibility across every touchpoint.",
+          "features": [
+            "360° customer profiles",
+            "Sales pipeline automation",
+            "Activity tracking & reminders",
+            "Email & call integration"
+          ]
+        },
+        "accounting": {
+          "name": "Accounting",
+          "nameAr": "المحاسبة",
+          "description": "Full general ledger, invoicing, and financial reporting compliant with local and international standards.",
+          "features": [
+            "Multi-currency support",
+            "Automated invoicing",
+            "Real-time financial reports",
+            "Tax & VAT compliance"
+          ]
+        },
+        "pos": {
+          "name": "Point of Sale",
+          "nameAr": "نقاط البيع",
+          "description": "Fast, reliable checkout for retail and hospitality — online and offline, synced in real time.",
+          "features": [
+            "Offline-capable terminals",
+            "Multi-location management",
+            "Integrated payments",
+            "Receipt & loyalty programs"
+          ]
+        },
+        "inventory": {
+          "name": "Inventory",
+          "nameAr": "إدارة المخزون",
+          "description": "Track stock across warehouses and locations with automated reordering and demand forecasting.",
+          "features": [
+            "Multi-warehouse tracking",
+            "Barcode & serial management",
+            "Automated reorder points",
+            "Demand forecasting"
+          ]
+        }
+      }
+    },
+    "comingSoon": {
+      "eyebrow": "EXPANDING THE PORTFOLIO",
+      "title": "More technology. One engineering vision.",
+      "badge": "Coming Soon",
+      "notifyMe": "Notify me",
+      "orabthicNext": {
+        "badge": "Coming Next",
+        "name": "Orabthic Health",
+        "tagline": "Healthcare Technology",
+        "description": "A dedicated technology platform for hospitals, clinics, and health systems — unifying patient management, clinical operations, billing, pharmacy, and compliance on one secure data layer.",
+        "capabilitiesLabel": "Platform capabilities",
+        "capabilities": [
+          "Patient & clinical records",
+          "Hospital operations & scheduling",
+          "Medical billing & compliance",
+          "Pharmacy & supply chain"
+        ],
+        "notifyMe": "Notify me"
+      },
+      "products": {
+        "hr": {
+          "name": "HR & Payroll",
+          "description": "End-to-end workforce management, payroll processing, and employee self-service."
+        },
+        "project": {
+          "name": "Project Management",
+          "description": "Plan, track, and deliver projects with resource allocation and budget control."
+        },
+        "manufacturing": {
+          "name": "Manufacturing",
+          "description": "Production planning, bill of materials, and shop floor management."
+        },
+        "bi": {
+          "name": "Business Intelligence",
+          "description": "Interactive dashboards, custom reports, and predictive analytics across all modules."
+        },
+        "ecommerce": {
+          "name": "E-Commerce",
+          "description": "Native online storefront with unified inventory, orders, and customer data."
+        }
+      }
+    },
+    "infrastructure": {
+      "label": "Infrastructure",
+      "title": "Built on engineering-grade foundations.",
+      "description": "Security, availability, and governance engineered into every layer — not bolted on.",
+      "items": [
+        {
+          "title": "Advanced Security",
+          "description": "Defense-in-depth controls with end-to-end encryption at rest and in transit, continuous monitoring, and hardened infrastructure."
+        },
+        {
+          "title": "Cloud Infrastructure",
+          "description": "Multi-region deployment with automatic failover. On-premise and private cloud options for regulated industries."
+        },
+        {
+          "title": "Access Control",
+          "description": "SSO, SAML 2.0, and granular RBAC. Every action logged with immutable audit trails."
+        },
+        {
+          "title": "Data Governance",
+          "description": "Configurable data residency and retention policies. Full export and portability controls designed for privacy regulations."
+        }
+      ]
+    },
+    "integrations": {
+      "label": "Integrations",
+      "title": "Connect your entire stack.",
+      "description": "REST API, webhooks, and pre-built connectors for the tools your organization already uses.",
+      "connectors": [
+        "REST API",
+        "Webhooks",
+        "SAP",
+        "Microsoft 365",
+        "Slack",
+        "Stripe",
+        "Zapier",
+        "Custom ETL"
+      ],
+      "capabilities": [
+        {
+          "title": "REST API",
+          "desc": "Full CRUD access to every module. OpenAPI 3.0 specification. Rate-limited with enterprise tiers."
+        },
+        {
+          "title": "Event Webhooks",
+          "desc": "Subscribe to real-time events — sales, inventory changes, invoice creation — with signed payloads."
+        },
+        {
+          "title": "Custom Connectors",
+          "desc": "Enterprise tier includes dedicated integration engineering for legacy systems and proprietary tools."
+        }
+      ]
+    },
+    "cta": {
+      "headline": "Explore what we're building.",
+      "sub": "Healthcare platforms, enterprise modules, cloud infrastructure, and integration capabilities — all in active development.",
+      "demo": "Contact Us",
+      "explore": "View Products"
+    },
+    "console": {
+      "building": "Building",
+      "brand": "Orabthic",
+      "graph": "Technology Graph",
+      "live": "Live",
+      "domains": "Domains",
+      "core": "Core",
+      "eventStream": "Event Stream",
+      "eventsTail": "3 events · tail",
+      "active": "Active",
+      "footer": "Unified engineering · all domains",
+      "stackLabel": "{domain} stack",
+      "metrics": {
+        "sync": "Sync",
+        "events": "Events",
+        "uptime": "Uptime"
+      },
+      "domainList": {
+        "health": {
+          "label": "Health",
+          "capabilities": ["Clinical", "Billing", "Pharmacy"]
+        },
+        "enterprise": {
+          "label": "Enterprise",
+          "capabilities": ["CRM", "Operations", "Inventory"]
+        },
+        "cloud": {
+          "label": "Cloud",
+          "capabilities": ["Compute", "Regions", "Failover"]
+        },
+        "api": {
+          "label": "API",
+          "capabilities": ["REST", "Webhooks", "ETL"]
+        }
+      }
+    }
+  },
+  "products": {
+    "hero": {
+      "label": "Product Portfolio",
+      "mono": "orabthic.products",
+      "title": "The full technology\nportfolio.",
+      "subtitle": "Industry platforms, operational modules, and sector verticals — all engineered on one canonical data layer. Every product is in active development.",
+      "cta": "Join the waitlist"
+    },
+    "instance": {
+      "label": "Platform Composition",
+      "title": "Create your instance.\nAny modules. One platform.",
+      "subtitle": "Build a platform tailored to your organization — select only the modules you need. Every chosen module runs on the same platform instance, sharing one data layer, one security model, and one integration surface.",
+      "points": [
+        "Pick any combination of modules for your organization",
+        "All selected modules live on a single platform instance",
+        "Unified data, permissions, and APIs across your entire selection"
+      ],
+      "composerLabel": "Module Composer",
+      "hubLabel": "Your Instance",
+      "inYourInstance": "In your instance",
+      "addModules": "Add more modules",
+      "selectedCount": "{count} modules selected",
+      "footnote": "No disconnected tools. No middleware sync. One platform — configured to your exact operational scope.",
+      "cta": "Configure your platform"
+    },
+    "portfolio": {
+      "label": "Portfolio Architecture",
+      "title": "Platforms. Modules. Verticals.",
+      "subtitle": "Three interconnected layers — explore how Orabthic technology maps to your industry, operations, and growth trajectory.",
+      "mono": "orabthic.portfolio",
+      "tabs": {
+        "platforms": "Platforms",
+        "modules": "Modules",
+        "verticals": "Verticals"
+      },
+      "platforms": [
+        {
+          "id": "orabthicNext",
+          "name": "Orabthic Health",
+          "tagline": "Healthcare Platform",
+          "description": "Dedicated infrastructure for hospitals, clinics, and health systems — clinical records, medical billing, pharmacy, and regulatory compliance on one secure layer.",
+          "stack": ["Clinical Records", "Medical Billing", "Pharmacy", "Compliance"],
+          "featured": true
+        },
+        {
+          "id": "enterprise",
+          "name": "Orabthic Enterprise",
+          "tagline": "Operations Platform",
+          "description": "Unified operational technology for CRM, inventory, workforce, projects, and analytics — synchronized across every business function.",
+          "stack": ["CRM", "Inventory", "Workforce", "Analytics"]
+        }
+      ],
+      "modules": [
+        { "id": "orabthicNext", "code": "HLTH" },
+        { "id": "crm", "code": "CRM" },
+        { "id": "inventory", "code": "INV" },
+        { "id": "payroll", "code": "PAY" },
+        { "id": "employeeManagement", "code": "HRM" },
+        { "id": "project", "code": "PRJ" },
+        { "id": "manufacturing", "code": "MFG" },
+        { "id": "bi", "code": "BI" },
+        { "id": "ecommerce", "code": "ECM" }
+      ],
+      "verticals": [
+        {
+          "name": "Healthcare",
+          "description": "Hospitals, clinics, and integrated health systems requiring clinical, billing, and supply chain unification.",
+          "platform": "Orabthic Health",
+          "modules": ["Clinical", "Billing", "Pharmacy", "Inventory"]
+        },
+        {
+          "name": "Retail & Commerce",
+          "description": "Multi-location retail and e-commerce operations with unified inventory and customer lifecycle management.",
+          "platform": "Orabthic Enterprise",
+          "modules": ["CRM", "Inventory", "E-Commerce", "Analytics"]
+        },
+        {
+          "name": "Manufacturing",
+          "description": "Production planning, shop floor execution, and supply chain synchronized with operational data.",
+          "platform": "Orabthic Enterprise",
+          "modules": ["Manufacturing", "Inventory", "Project", "Analytics"]
+        },
+        {
+          "name": "Workforce & HR",
+          "description": "Payroll, employee lifecycle, attendance, and organizational structure for multi-entity organizations.",
+          "platform": "Orabthic Enterprise",
+          "modules": ["Payroll", "Employee Mgmt", "CRM", "Analytics"]
+        },
+        {
+          "name": "Professional Services",
+          "description": "Project delivery, client engagement, time tracking, and resource allocation for service firms.",
+          "platform": "Orabthic Enterprise",
+          "modules": ["Project", "CRM", "Analytics", "Workforce"]
+        },
+        {
+          "name": "Distribution & Logistics",
+          "description": "Warehouse management, demand forecasting, and multi-node inventory across distribution networks.",
+          "platform": "Orabthic Enterprise",
+          "modules": ["Inventory", "CRM", "Analytics", "E-Commerce"]
+        }
+      ],
+      "viewSpec": "View spec",
+      "platformLabel": "Platform",
+      "modulesLabel": "Modules"
+    },
+    "atlas": {
+      "label": "Module Atlas",
+      "title": "Full specifications.",
+      "subtitle": "Deep documentation for every module — architecture scope, capability surface, and waitlist access.",
+      "navLabel": "Index",
+      "capabilitiesLabel": "Capabilities",
+      "architectureLabel": "Architecture",
+      "syncStatus": "sync · ok",
+      "dataLayer": "Unified data layer",
+      "architectureTags": ["Event-driven", "API-first", "Audit trail"]
+    },
+    "cta": {
+      "title": "Be first when we launch.",
+      "subtitle": "Join the waitlist for early access to Orabthic platforms and modules.",
+      "button": "Notify me"
+    },
+    "notifyMe": "Notify me",
+    "comingSoon": "Coming Soon",
+    "crm": {
+      "number": "02",
+      "name": "Customer Relationship Management",
+      "description": "Orabthic CRM gives your sales and service teams a unified view of every customer interaction. From first touch to renewal, automate workflows, track performance, and close deals faster — all connected to your accounting and inventory data.",
+      "features": [
+        "360° customer profiles with full interaction history",
+        "Visual sales pipelines with drag-and-drop stages",
+        "Automated lead scoring and assignment rules",
+        "Email, calendar, and telephony integrations",
+        "Quotation and proposal generation",
+        "Service ticketing and SLA management"
+      ]
+    },
+    "inventory": {
+      "number": "03",
+      "name": "Inventory Management",
+      "description": "Gain complete visibility and control over stock across every warehouse, store, and distribution center. Orabthic Inventory connects directly to POS and accounting for accurate, real-time stock levels.",
+      "features": [
+        "Multi-warehouse and bin-level tracking",
+        "Barcode, QR, and serial number management",
+        "Automated reorder points and purchase suggestions",
+        "Batch, expiry, and lot traceability",
+        "Inter-warehouse transfers and stock adjustments",
+        "Demand forecasting and ABC analysis"
+      ]
+    },
+    "payroll": {
+      "number": "04",
+      "name": "Payroll",
+      "description": "Jurisdiction-native payroll processing with automated tax calculations, WPS and GOSI compliance, multi-currency disbursement, and real-time synchronization with accounting and workforce records.",
+      "features": [
+        "Automated salary runs and payslip generation",
+        "Regional tax, Zakat, and statutory deductions",
+        "WPS and bank file export compliance",
+        "Multi-currency and multi-entity payroll",
+        "Leave and overtime integration",
+        "General ledger posting on every run"
+      ]
+    },
+    "employeeManagement": {
+      "number": "05",
+      "name": "Employee Management",
+      "description": "A complete workforce platform for hiring, onboarding, attendance, performance, and organizational structure — unified with payroll and accounting on the same data layer.",
+      "features": [
+        "Employee profiles and org hierarchy",
+        "Attendance, shifts, and leave management",
+        "Onboarding and offboarding workflows",
+        "Performance reviews and goal tracking",
+        "Document vault and contract management",
+        "Employee self-service portal"
+      ]
+    },
+    "orabthicNext": {
+      "number": "01",
+      "name": "Orabthic Health",
+      "tagline": "Healthcare ERP",
+      "description": "A dedicated enterprise platform for hospitals, clinics, and health systems — unifying patient management, clinical operations, billing, pharmacy, and compliance on one secure data layer.",
+      "features": [
+        "Patient and clinical records management",
+        "Hospital operations and scheduling",
+        "Medical billing and insurance claims",
+        "Pharmacy and medical supply chain",
+        "Regulatory compliance and audit trails",
+        "Integration with finance and inventory modules"
+      ]
+    },
+    "project": {
+      "number": "06",
+      "name": "Project Management",
+      "description": "Plan, execute, and deliver projects with resource allocation, budget control, and real-time visibility — connected to accounting for accurate cost tracking and revenue recognition.",
+      "features": [
+        "Gantt charts and milestone tracking",
+        "Resource allocation and capacity planning",
+        "Budget vs. actual cost monitoring",
+        "Time tracking and billable hours",
+        "Task dependencies and workflow automation",
+        "Client portal and progress reporting"
+      ]
+    },
+    "manufacturing": {
+      "number": "07",
+      "name": "Manufacturing",
+      "description": "End-to-end production management from bill of materials through shop floor execution — with cost accounting, quality control, and inventory synchronization at every stage.",
+      "features": [
+        "Bill of materials and routing management",
+        "Production planning and MRP",
+        "Shop floor work order tracking",
+        "Quality inspection and non-conformance",
+        "Raw material consumption and costing",
+        "Finished goods integration with inventory"
+      ]
+    },
+    "bi": {
+      "number": "08",
+      "name": "Business Intelligence",
+      "description": "Interactive dashboards, custom reports, and predictive analytics across every Orabthic module — turning operational data into actionable intelligence for leadership teams.",
+      "features": [
+        "Drag-and-drop dashboard builder",
+        "Cross-module reporting and drill-down",
+        "Scheduled report delivery",
+        "Role-based analytics access",
+        "Predictive forecasting models",
+        "Export to Excel, PDF, and API"
+      ]
+    },
+    "ecommerce": {
+      "number": "09",
+      "name": "E-Commerce",
+      "description": "A native online storefront unified with inventory, orders, payments, and customer data — no middleware, no sync delays, one system from cart to general ledger.",
+      "features": [
+        "Product catalog and variant management",
+        "Unified online and in-store inventory",
+        "Order fulfillment and shipping integration",
+        "Payment gateway and checkout flows",
+        "Customer accounts and order history",
+        "Real-time revenue posting to accounting"
+      ]
+    }
+  },
+  "solutions": {
+    "hero": {
+      "title": "Industry Solutions Across Every Sector"
+    },
+    "industries": {
+      "retail": {
+        "name": "Retail & E-Commerce",
+        "products": "POS, Inventory, CRM, Accounting",
+        "useCase": "Unify in-store and online sales with real-time inventory, loyalty programs, and consolidated financial reporting across every location.",
+        "cta": "Explore retail solutions"
+      },
+      "healthcare": {
+        "name": "Healthcare",
+        "products": "CRM, Accounting, Inventory",
+        "useCase": "Manage patient relationships, medical supply inventory, and billing compliance with audit-ready financial controls.",
+        "cta": "Explore healthcare solutions"
+      },
+      "manufacturing": {
+        "name": "Manufacturing",
+        "products": "Inventory, Accounting, CRM",
+        "useCase": "Track raw materials through production to finished goods with cost accounting, supplier management, and sales order integration.",
+        "cta": "Explore manufacturing solutions"
+      },
+      "realEstate": {
+        "name": "Real Estate",
+        "products": "CRM, Accounting",
+        "useCase": "Manage property portfolios, tenant relationships, lease billing, and commission tracking in one platform.",
+        "cta": "Explore real estate solutions"
+      },
+      "hospitality": {
+        "name": "Hospitality & F&B",
+        "products": "POS, Inventory, Accounting",
+        "useCase": "Run restaurants, hotels, and catering operations with table management, recipe costing, and multi-outlet reporting.",
+        "cta": "Explore hospitality solutions"
+      },
+      "education": {
+        "name": "Education",
+        "products": "CRM, Accounting",
+        "useCase": "Streamline student enrollment, fee collection, and institutional budgeting with role-based access for staff and administrators.",
+        "cta": "Explore education solutions"
+      },
+      "government": {
+        "name": "Government & Public Sector",
+        "products": "Accounting, Inventory, CRM",
+        "useCase": "Meet procurement, audit, and compliance requirements with transparent financial controls and asset tracking.",
+        "cta": "Explore government solutions"
+      },
+      "professional": {
+        "name": "Professional Services",
+        "products": "CRM, Accounting",
+        "useCase": "Track client engagements, project billing, time entries, and revenue recognition for consulting and service firms.",
+        "cta": "Explore professional services solutions"
+      }
+    }
+  },
+  "pricing": {
+    "hero": {
+      "label": "Enterprise Pricing",
+      "badge": "All pricing on contact",
+      "title": "Custom proposals.\nNo public price lists.",
+      "subtitle": "Every Orabthic engagement is scoped to your organization — modules, entities, deployment model, and integrations. Speak with our team to receive a tailored proposal.",
+      "contactNote": "Pricing is never published online. All quotes are delivered after a discovery consultation."
+    },
+    "contactCta": "Contact Us for Pricing",
+    "contactCtaShort": "Contact Us",
+    "contactForPricing": "Contact for pricing",
+    "models": {
+      "label": "Engagement Scope",
+      "title": "What determines your proposal.",
+      "subtitle": "Four dimensions shape every custom quote. None are priced publicly — each is defined during your consultation.",
+      "items": [
+        {
+          "title": "Modules & Products",
+          "description": "CRM, Accounting, POS, Inventory, and Orabthic Health — licensed per your operational requirements."
+        },
+        {
+          "title": "Users & Entities",
+          "description": "Seat count, role tiers, multi-entity structure, and regional subsidiaries included in your scope."
+        },
+        {
+          "title": "Deployment Model",
+          "description": "Managed cloud, private cloud, or on-premise — selected based on your security and residency needs."
+        },
+        {
+          "title": "Integrations & Support",
+          "description": "API access, custom connectors, implementation depth, and ongoing support tier."
+        }
+      ]
+    },
+    "modules": {
+      "label": "Platform Modules",
+      "title": "The full platform. Coming soon.",
+      "subtitle": "Every Orabthic module is in active development. Join the waitlist to be notified when each module launches.",
+      "comingSoon": "Coming Soon",
+      "notifyMe": "Notify me",
+      "items": [
+        {
+          "name": "CRM",
+          "scope": "Sales, service, and customer lifecycle on a unified data layer.",
+          "capabilities": ["Pipeline automation", "Customer 360 view", "Service workflows"]
+        },
+        {
+          "name": "Accounting",
+          "scope": "Enterprise ledger with multi-entity and multi-currency support.",
+          "capabilities": ["General ledger", "Automated reconciliation", "Tax compliance"]
+        },
+        {
+          "name": "Point of Sale",
+          "scope": "Retail and transaction operations connected to inventory and finance.",
+          "capabilities": ["Multi-location POS", "Real-time sync", "Payment integration"]
+        },
+        {
+          "name": "Inventory",
+          "scope": "Stock, warehouses, and procurement across your entire operation.",
+          "capabilities": ["Warehouse management", "Reorder automation", "Demand forecasting"]
+        },
+        {
+          "name": "Orabthic Health",
+          "scope": "Healthcare ERP for hospitals, clinics, and health systems.",
+          "capabilities": ["Clinical records", "Medical billing", "Pharmacy & supply chain"]
+        }
+      ]
+    },
+    "deployment": {
+      "label": "Deployment",
+      "title": "Infrastructure options.",
+      "items": [
+        { "name": "Managed Cloud", "description": "Fully hosted with automatic updates and multi-region availability." },
+        { "name": "Private Cloud", "description": "Dedicated environment for regulated industries and data residency." },
+        { "name": "On-Premise", "description": "Self-hosted deployment for organizations with strict infrastructure control." }
+      ]
+    },
+    "inclusionsLabel": "What's Included",
+    "inclusionsTitle": "Every engagement includes.",
+    "inclusionsSubtitle": "Regardless of scale, all Orabthic deployments include core platform capabilities.",
+    "inclusionsNavLabel": "Engagement stack",
+    "inclusionsStackId": "engagement.stack",
+    "inclusionsStatus": "All capabilities active",
+    "inclusionsIncluded": "Included",
+    "inclusionsCoreLayer": "Core platform layer",
+    "inclusions": [
+      {
+        "title": "Module Licensing",
+        "description": "Per-module licensing for CRM, Accounting, POS, and Inventory — activate only what your organization requires.",
+        "tags": ["Modular", "CRM", "Accounting", "POS", "Inventory"]
+      },
+      {
+        "title": "Cloud Infrastructure",
+        "description": "Managed hosting with automatic updates, backups, and multi-region availability included in every contract.",
+        "tags": ["Managed hosting", "Auto updates", "Backups", "Multi-region"]
+      },
+      {
+        "title": "Implementation Support",
+        "description": "Dedicated onboarding, data migration planning, and configuration aligned to your operational structure.",
+        "tags": ["Onboarding", "Migration", "Configuration", "Dedicated team"]
+      },
+      {
+        "title": "Training & Documentation",
+        "description": "Role-based training for administrators and end users, plus full platform documentation.",
+        "tags": ["Role-based training", "Admin enablement", "End users", "Full docs"]
+      },
+      {
+        "title": "API & Integrations",
+        "description": "REST API access, webhook subscriptions, and standard connector setup for your existing tools.",
+        "tags": ["REST API", "Webhooks", "Connectors", "Open surface"]
+      },
+      {
+        "title": "Ongoing Support",
+        "description": "Technical support, platform updates, and security patches for the duration of your contract.",
+        "tags": ["Technical support", "Updates", "Security patches", "Contract term"]
+      }
+    ],
+    "processLabel": "How It Works",
+    "processTitle": "From consultation to deployment.",
+    "process": [
+      {
+        "title": "Discovery Call",
+        "description": "We review your operational structure, module requirements, entity count, and integration needs."
+      },
+      {
+        "title": "Custom Proposal",
+        "description": "You receive a detailed proposal covering licensing, implementation timeline, and support scope."
+      },
+      {
+        "title": "Deployment & Onboarding",
+        "description": "Our team configures the platform, migrates data, trains your staff, and launches on your schedule."
+      }
+    ],
+    "cta": {
+      "title": "Ready to receive your custom proposal?",
+      "subtitle": "Our enterprise team will scope your requirements and deliver pricing structured for your organization — no generic tiers, no hidden fees."
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Common questions",
+      "subtitle": "Everything you need to know about enterprise engagement, pricing, and deployment — before your discovery call.",
+      "sidebarTitle": "Still have questions?",
+      "sidebarText": "Our enterprise team responds within one business day with answers tailored to your organization.",
+      "categories": {
+        "pricing": "Pricing",
+        "deployment": "Deployment",
+        "platform": "Platform",
+        "support": "Support",
+        "healthcare": "Healthcare"
+      },
+      "items": [
+        {
+          "category": "pricing",
+          "question": "How is Orabthic priced?",
+          "answer": "All pricing is provided on contact after a discovery consultation. Your proposal reflects the modules you deploy, user count, entity structure, deployment model, and integration requirements — never a one-size-fits-all tier."
+        },
+        {
+          "category": "pricing",
+          "question": "Is there a minimum contract term?",
+          "answer": "Standard enterprise contracts are annual. Multi-year agreements are available with additional support benefits and implementation priority."
+        },
+        {
+          "category": "platform",
+          "question": "Can we start with one module?",
+          "answer": "Yes. Many organizations begin with Accounting or CRM and expand as operational needs grow. All modules share the same data layer from day one — no re-integration required when you add modules later."
+        },
+        {
+          "category": "deployment",
+          "question": "Do you offer on-premise deployment?",
+          "answer": "Yes. On-premise and private cloud options are available for organizations with specific data residency, air-gapped, or regulatory requirements. Deployment model is scoped during your consultation."
+        },
+        {
+          "category": "support",
+          "question": "What does implementation include?",
+          "answer": "Implementation covers platform configuration, data migration planning, user provisioning, integration setup, UAT support, and role-based training for administrators and end users."
+        },
+        {
+          "category": "deployment",
+          "question": "How long does a typical implementation take?",
+          "answer": "Timeline depends on module scope, entity count, and migration complexity. A single-module deployment may launch in weeks; multi-entity rollouts are phased over months. Your proposal includes a detailed timeline."
+        },
+        {
+          "category": "platform",
+          "question": "Do you migrate data from our existing systems?",
+          "answer": "Yes. Our implementation team plans and executes data migration from spreadsheets, legacy ERPs, and point solutions. Migration scope and validation are defined during discovery."
+        },
+        {
+          "category": "support",
+          "question": "What support is included after go-live?",
+          "answer": "Every contract includes technical support, platform updates, and security patches. Enterprise engagements add dedicated account management, SLA-backed response times, and priority escalation."
+        },
+        {
+          "category": "platform",
+          "question": "Can Orabthic integrate with our existing tools?",
+          "answer": "Yes. REST API, webhooks, and pre-built connectors cover common enterprise tools. Custom connector engineering is available for legacy systems and proprietary infrastructure."
+        },
+        {
+          "category": "healthcare",
+          "question": "When will Orabthic Health be available?",
+          "answer": "Orabthic Health is in active development for hospitals, clinics, and health systems. Contact us to join the early access program and receive availability updates for your region."
+        },
+        {
+          "category": "deployment",
+          "question": "What security and compliance standards do you meet?",
+          "answer": "The platform is built with enterprise-grade security controls — encryption at rest and in transit, RBAC, and immutable audit trails across all deployments. We design for common compliance frameworks; formal certification and audit programs are scoped per engagement."
+        }
+      ]
+    }
+  },
+  "about": {
+    "hero": {
+      "label": "About Orabthic",
+      "title": "Enterprise software\nengineered as infrastructure.",
+      "subtitle": "Orabthic was built on a single conviction: organizations deserve a platform that is precise, unified, and designed for the regions they operate in — not a patchwork of disconnected tools."
+    },
+    "mission": {
+      "label": "Mission",
+      "title": "What drives us.",
+      "statement": "To empower every enterprise with unified, intelligent software that eliminates operational friction — so teams can focus on growth, not spreadsheets."
+    },
+    "principles": {
+      "label": "Guiding Principles",
+      "title": "How we operate.",
+      "subtitle": "No vanity metrics. No fabricated scale. Just the principles that shape every product and deployment decision.",
+      "items": [
+        {
+          "title": "Precision over promises",
+          "description": "We build systems that work under real operational load — not demos that collapse in production."
+        },
+        {
+          "title": "Unified by design",
+          "description": "Every module shares one data layer. Integration is architecture, not an afterthought."
+        },
+        {
+          "title": "Regional depth",
+          "description": "Compliance, language, and business practice are engineered in — not localized later."
+        },
+        {
+          "title": "Long-term partnership",
+          "description": "Enterprise software is a commitment. We scope, deploy, and support with that horizon in mind."
+        }
+      ]
+    },
+    "expertise": {
+      "label": "Organizational Focus",
+      "title": "Disciplines behind the platform.",
+      "subtitle": "A multidisciplinary team spanning engineering, product, security, and operations — united by one platform vision.",
+      "areas": [
+        {
+          "title": "Platform Engineering",
+          "description": "Core infrastructure, data architecture, and module interoperability — built for enterprise scale and sub-second synchronization."
+        },
+        {
+          "title": "Product Architecture",
+          "description": "CRM, Accounting, POS, and Inventory designed as operational primitives — not feature checklists."
+        },
+        {
+          "title": "Security & Compliance",
+          "description": "Encryption, access control, and audit trails engineered into every layer for regulated industries."
+        },
+        {
+          "title": "Customer Operations",
+          "description": "Implementation, training, and ongoing support structured around your operational reality — not a generic playbook."
+        },
+        {
+          "title": "Healthcare Division",
+          "description": "Dedicated engineering for Orabthic Health — our Healthcare ERP for hospitals, clinics, and health systems."
+        },
+        {
+          "title": "Integration Engineering",
+          "description": "API-first connectivity and custom connector development for legacy systems and proprietary infrastructure."
+        }
+      ]
+    },
+    "evolution": {
+      "label": "Platform Evolution",
+      "title": "From core operations to full enterprise.",
+      "subtitle": "A continuous build toward unified enterprise infrastructure — and the next frontier in healthcare.",
+      "phases": [
+        {
+          "title": "Unified Foundation",
+          "description": "Establishing a single data layer where CRM, financial records, transactions, and inventory operate as one system."
+        },
+        {
+          "title": "Core Module Suite",
+          "description": "Shipping the four operational modules — CRM, Accounting, Point of Sale, and Inventory — on shared infrastructure."
+        },
+        {
+          "title": "Enterprise Infrastructure",
+          "description": "Multi-entity, multi-currency, API-first architecture with deployment options for cloud, private cloud, and on-premise."
+        },
+        {
+          "title": "Orabthic Health",
+          "description": "Extending the platform into Healthcare ERP — patient management, clinical operations, billing, and compliance for health systems."
+        }
+      ]
+    },
+    "presence": {
+      "label": "Enterprise Reach",
+      "title": "Built in Saudi Arabia.\nEngineered for enterprise.",
+      "subtitle": "Orabthic serves organizations across regulated industries — unified operations, regional compliance, and the next generation of healthcare infrastructure.",
+      "pillars": [
+        {
+          "title": "Unified Operations",
+          "description": "CRM, Accounting, POS, and Inventory on one authoritative data layer — deployed across single entities and complex multi-entity structures."
+        },
+        {
+          "title": "Regional Compliance",
+          "description": "Arabic and English interfaces, local regulatory alignment, and data governance engineered for the markets we serve."
+        },
+        {
+          "title": "Healthcare Infrastructure",
+          "description": "Orabthic Health extends the platform into hospitals, clinics, and health systems — clinical operations, billing, and compliance unified."
+        }
+      ],
+      "headquarters": "Saudi Arabia",
+      "headquartersLabel": "Headquarters"
+    },
+    "values": {
+      "label": "Values",
+      "title": "What we stand for.",
+      "items": [
+        {
+          "name": "Customer obsession",
+          "description": "Every decision starts with the customer. We measure success by the outcomes we deliver, not features we ship."
+        },
+        {
+          "name": "Regional excellence",
+          "description": "We build for the markets we serve — local compliance, languages, and business practices are not afterthoughts."
+        },
+        {
+          "name": "Relentless quality",
+          "description": "Enterprise software demands reliability. We hold ourselves to zero-compromise security and operational precision."
+        },
+        {
+          "name": "Transparency",
+          "description": "Honest communication and open roadmaps. Pricing on contact, clear scope, and commitments we keep."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Explore what Orabthic can do for your organization.",
+      "subtitle": "Speak with our team about platform capabilities, deployment options, and your operational requirements.",
+      "button": "Contact Us"
+    }
+  },
+  "contact": {
+    "headline": "Let's Build Something\nRemarkable Together.",
+    "subheadline": "Whether you need a demo, have a sales question, or want to explore a partnership — our team is ready to help.",
+    "offices": {
+      "title": "Offices",
+      "riyadh": {
+        "city": "Riyadh",
+        "address": "King Fahd Road, Olaya District, Riyadh 12211, Saudi Arabia"
+      },
+      "dubai": {
+        "city": "Dubai",
+        "address": "DIFC Gate Village, Building 9, Dubai, UAE"
+      },
+      "london": {
+        "city": "London",
+        "address": "1 Canada Square, Canary Wharf, London E14 5AB, UK"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "sales": "sales@orabthic.com",
+      "support": "support@orabthic.com"
+    },
+    "phone": {
+      "label": "Phone",
+      "number": "+966 11 000 0000"
+    },
+    "form": {
+      "fullName": "Full Name",
+      "company": "Company",
+      "jobTitle": "Job Title",
+      "email": "Email",
+      "phone": "Phone",
+      "country": "Country",
+      "countryPlaceholder": "Select country",
+      "productInterest": "Product Interest",
+      "message": "Message",
+      "products": {
+        "crm": "CRM",
+        "accounting": "Accounting",
+        "pos": "POS",
+        "inventory": "Inventory",
+        "other": "Other"
+      },
+      "send": "Send Request",
+      "success": "Request Received",
+      "successMessage": "Our enterprise team will contact you within one business day."
+    },
+    "schedule": {
+      "title": "Prefer a live conversation?",
+      "cta": "Schedule a Demo Call"
+    }
+  },
+  "common": {
+    "skipToContent": "Skip to main content",
+    "switchLanguageAria": "Switch to Arabic",
+    "languageSwitchGroupAria": "Language selection",
+    "switchToEnglish": "Switch to English",
+    "switchToArabic": "Switch to Arabic",
+    "live": "Live",
+    "comingSoon": "Coming Soon",
+    "building": "Building"
+  },
+  "metadata": {
+    "siteName": "Orabthic",
+    "title": "Orabthic — Technology Across Industries",
+    "titleTemplate": "%s | Orabthic",
+    "description": "Orabthic builds healthcare platforms, enterprise software, cloud infrastructure, and integration technology for organizations worldwide.",
+    "pages": {
+      "home": {
+        "title": "Orabthic — Technology Across Every Domain",
+        "description": "Healthcare, enterprise operations, workforce, and commerce technology — engineered as one portfolio."
+      },
+      "products": {
+        "title": "Products — Orabthic Technology Portfolio",
+        "description": "Explore Orabthic Health, operational modules, and industry verticals — compose your platform instance from any combination of modules."
+      },
+      "pricing": {
+        "title": "Pricing — Contact for Custom Proposals",
+        "description": "Enterprise pricing tailored to your modules, entities, deployment model, and integrations."
+      },
+      "about": {
+        "title": "About Orabthic",
+        "description": "Enterprise technology engineered as infrastructure — built in Saudi Arabia for organizations worldwide."
+      },
+      "contact": {
+        "title": "Contact Orabthic",
+        "description": "Contact Orabthic for demos, sales inquiries, and partnership opportunities."
+      },
+      "solutions": {
+        "title": "Industry Solutions",
+        "description": "Orabthic solutions for healthcare, retail, manufacturing, professional services, and more."
+      }
+    },
+    "breadcrumb": {
+      "home": "Home",
+      "products": "Products",
+      "pricing": "Pricing",
+      "about": "About",
+      "contact": "Contact",
+      "solutions": "Solutions"
+    }
+  }
+}
