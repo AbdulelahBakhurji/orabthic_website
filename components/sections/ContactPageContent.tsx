@@ -16,22 +16,69 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useMotionConfig } from "@/lib/motion";
+import { SOCIAL_LINKS } from "@/lib/security/constants";
+import {
+  ALLOWED_COUNTRIES,
+  ALLOWED_PRODUCTS,
+} from "@/lib/security/validation";
 
-const countries = [
-  "Saudi Arabia", "UAE", "Egypt", "United Kingdom", "Germany",
-  "United States", "Singapore", "South Africa", "Other",
-];
-
-const productInterests = ["crm", "accounting", "pos", "inventory", "other"];
+const productInterests = [...ALLOWED_PRODUCTS];
 
 export function ContactPageContent() {
   const t = useTranslations("contact");
-  const { fadeUp, stagger, transition, viewport } = useMotionConfig();
+  const { fadeUp, stagger, transition } = useMotionConfig();
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [formTimestamp] = useState(() => Date.now());
+  const [country, setCountry] = useState<string>("");
+  const [selectedProducts, setSelectedProducts] = useState<string[]>([]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const toggleProduct = (product: string) => {
+    setSelectedProducts((prev) =>
+      prev.includes(product) ? prev.filter((p) => p !== product) : [...prev, product]
+    );
+  };
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setError(null);
+    setIsSubmitting(true);
+
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    const payload = {
+      fullName: String(formData.get("fullName") ?? ""),
+      company: String(formData.get("company") ?? ""),
+      jobTitle: String(formData.get("jobTitle") ?? ""),
+      email: String(formData.get("email") ?? ""),
+      phone: String(formData.get("phone") ?? "") || undefined,
+      country,
+      productInterests: selectedProducts,
+      message: String(formData.get("message") ?? "") || undefined,
+      website: String(formData.get("website") ?? ""),
+      formTimestamp,
+    };
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (!response.ok) {
+        const data = (await response.json().catch(() => null)) as { error?: string } | null;
+        throw new Error(data?.error ?? "Submission failed");
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : t("form.error"));
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -74,13 +121,31 @@ export function ContactPageContent() {
             </div>
 
             <div className="flex gap-4">
-              <a href="#" aria-label="LinkedIn" className="text-white-300 hover:text-white-100 transition-colors">
+              <a
+                href={SOCIAL_LINKS.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="text-white-300 hover:text-white-100 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" aria-label="X" className="text-white-300 hover:text-white-100 transition-colors">
+              <a
+                href={SOCIAL_LINKS.twitter}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="text-white-300 hover:text-white-100 transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" aria-label="YouTube" className="text-white-300 hover:text-white-100 transition-colors">
+              <a
+                href={SOCIAL_LINKS.youtube}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="YouTube"
+                className="text-white-300 hover:text-white-100 transition-colors"
+              >
                 <Youtube className="h-5 w-5" />
               </a>
             </div>
@@ -94,39 +159,48 @@ export function ContactPageContent() {
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-6 rounded-card border border-black-700 bg-black-800 p-8 md:p-10">
+                <input
+                  type="text"
+                  name="website"
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  className="absolute opacity-0 pointer-events-none h-0 w-0 overflow-hidden"
+                />
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="name">{t("form.fullName")}</Label>
-                    <Input id="name" required />
+                    <Input id="name" name="fullName" required maxLength={100} autoComplete="name" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="company">{t("form.company")}</Label>
-                    <Input id="company" required />
+                    <Input id="company" name="company" required maxLength={150} autoComplete="organization" />
                   </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="title">{t("form.jobTitle")}</Label>
-                    <Input id="title" required />
+                    <Input id="title" name="jobTitle" required maxLength={100} autoComplete="organization-title" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="email">{t("form.email")}</Label>
-                    <Input id="email" type="email" required />
+                    <Input id="email" name="email" type="email" required maxLength={254} autoComplete="email" />
                   </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="phone">{t("form.phone")}</Label>
-                    <Input id="phone" type="tel" />
+                    <Input id="phone" name="phone" type="tel" maxLength={30} autoComplete="tel" />
                   </div>
                   <div className="space-y-2">
                     <Label>{t("form.country")}</Label>
-                    <Select>
+                    <Select value={country} onValueChange={setCountry} required>
                       <SelectTrigger>
                         <SelectValue placeholder={t("form.countryPlaceholder")} />
                       </SelectTrigger>
                       <SelectContent>
-                        {countries.map((c) => (
+                        {ALLOWED_COUNTRIES.map((c) => (
                           <SelectItem key={c} value={c}>{c}</SelectItem>
                         ))}
                       </SelectContent>
@@ -138,7 +212,12 @@ export function ContactPageContent() {
                   <div className="flex flex-wrap gap-3">
                     {productInterests.map((p) => (
                       <label key={p} className="flex items-center gap-2 font-body text-sm text-white-200 cursor-pointer">
-                        <input type="checkbox" className="rounded border-black-700 bg-black-900" />
+                        <input
+                          type="checkbox"
+                          checked={selectedProducts.includes(p)}
+                          onChange={() => toggleProduct(p)}
+                          className="rounded border-black-700 bg-black-900"
+                        />
                         {t(`form.products.${p}`)}
                       </label>
                     ))}
@@ -146,10 +225,17 @@ export function ContactPageContent() {
                 </div>
                 <div className="space-y-2">
                   <Label htmlFor="message">{t("form.message")}</Label>
-                  <Textarea id="message" rows={4} />
+                  <Textarea id="message" name="message" rows={4} maxLength={5000} />
                 </div>
-                <Button type="submit" className="w-full">
-                  {t("form.send")}
+
+                {error && (
+                  <p className="font-body text-sm text-red-400" role="alert">
+                    {error}
+                  </p>
+                )}
+
+                <Button type="submit" className="w-full" disabled={isSubmitting || !country}>
+                  {isSubmitting ? t("form.sending") : t("form.send")}
                 </Button>
               </form>
             )}

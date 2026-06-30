@@ -1,3 +1,6 @@
+import { safeJsonLdStringify } from "@/lib/security/sanitize";
+import { SOCIAL_LINKS } from "@/lib/security/constants";
+
 export function OrganizationJsonLd() {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -13,17 +16,13 @@ export function OrganizationJsonLd() {
       addressLocality: "Riyadh",
       addressCountry: "SA",
     },
-    sameAs: [
-      "https://linkedin.com/company/orabthic",
-      "https://twitter.com/orabthic",
-      "https://youtube.com/@orabthic",
-    ],
+    sameAs: [SOCIAL_LINKS.linkedin, SOCIAL_LINKS.twitter, SOCIAL_LINKS.youtube],
   };
 
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(jsonLd) }}
     />
   );
 }
@@ -45,7 +44,7 @@ export function SoftwareApplicationJsonLd() {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(jsonLd) }}
     />
   );
 }
@@ -67,7 +66,7 @@ export function FAQJsonLd({ items }: { items: { question: string; answer: string
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(jsonLd) }}
     />
   );
 }
@@ -87,7 +86,7 @@ export function BreadcrumbJsonLd({ items }: { items: { name: string; url: string
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      dangerouslySetInnerHTML={{ __html: safeJsonLdStringify(jsonLd) }}
     />
   );
 }

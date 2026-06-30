@@ -1004,6 +1004,8 @@
         "other": "Other"
       },
       "send": "Send Request",
+      "sending": "Sending...",
+      "error": "Unable to submit your request. Please try again.",
       "success": "Request Received",
       "successMessage": "Our enterprise team will contact you within one business day."
     },

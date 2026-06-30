@@ -4,6 +4,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useState } from "react";
 import { cn } from "@/lib/utils";
+import { isValidLocale } from "@/lib/security/constants";
 
 export function LanguageToggle() {
   const locale = useLocale();
@@ -17,7 +18,9 @@ export function LanguageToggle() {
 
   const toggle = () => {
     setIsAnimating(true);
-    localStorage.setItem("orabthic-locale", nextLocale);
+    if (isValidLocale(nextLocale)) {
+      localStorage.setItem("orabthic-locale", nextLocale);
+    }
     const segments = pathname.split("/");
     segments[1] = nextLocale;
     router.push(segments.join("/") || `/${nextLocale}`);

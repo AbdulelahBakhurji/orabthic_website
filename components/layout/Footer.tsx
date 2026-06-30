@@ -6,6 +6,7 @@ import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { Linkedin, MapPin, Twitter, Youtube } from "lucide-react";
 import { useMotionConfig } from "@/lib/motion";
+import { LEGAL_LINKS, SOCIAL_LINKS } from "@/lib/security/constants";
 
 export function Footer() {
   const t = useTranslations("footer");
@@ -129,13 +130,15 @@ export function Footer() {
             </a>
             <div className="flex gap-2">
               {[
-                { label: "LinkedIn", Icon: Linkedin },
-                { label: "X / Twitter", Icon: Twitter },
-                { label: "YouTube", Icon: Youtube },
-              ].map(({ label, Icon }) => (
+                { label: "LinkedIn", Icon: Linkedin, href: SOCIAL_LINKS.linkedin },
+                { label: "X / Twitter", Icon: Twitter, href: SOCIAL_LINKS.twitter },
+                { label: "YouTube", Icon: Youtube, href: SOCIAL_LINKS.youtube },
+              ].map(({ label, Icon, href }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className="flex items-center justify-center h-9 w-9 rounded-full border border-black-700 text-white-300 hover:text-white-100 hover:border-black-500 hover:bg-black-800 transition-all"
                 >
@@ -149,12 +152,18 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-black-700 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
           <p className="font-body text-xs text-black-500">{t("copyright", { year: new Date().getFullYear() })}</p>
           <div className="flex flex-wrap items-center gap-4 lg:gap-6">
-            <Link href="#" className="font-body text-xs text-black-500 hover:text-white-300 transition-colors">
+            <a
+              href={LEGAL_LINKS.privacy}
+              className="font-body text-xs text-black-500 hover:text-white-300 transition-colors"
+            >
               {t("privacy")}
-            </Link>
-            <Link href="#" className="font-body text-xs text-black-500 hover:text-white-300 transition-colors">
+            </a>
+            <a
+              href={LEGAL_LINKS.terms}
+              className="font-body text-xs text-black-500 hover:text-white-300 transition-colors"
+            >
               {t("terms")}
-            </Link>
+            </a>
             <span className="hidden sm:block w-px h-3 bg-black-700" aria-hidden="true" />
             <span className="font-body text-[10px] uppercase tracking-wide text-black-500 border border-black-700 px-2.5 py-1 rounded-md bg-black-800/50">
               {t("badges.security")}

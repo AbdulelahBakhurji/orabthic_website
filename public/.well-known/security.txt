@@ -1,0 +1,8 @@
+Contact: mailto:security@orabthic.com
+Expires: 2027-12-31T23:59:59.000Z
+Preferred-Languages: en, ar
+Canonical: https://orabthic.com/.well-known/security.txt
+Policy: https://orabthic.com/en/privacy
+
+# Report security vulnerabilities responsibly.
+# We aim to acknowledge reports within 48 hours.
