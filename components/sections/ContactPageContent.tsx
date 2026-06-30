@@ -98,17 +98,6 @@ export function ContactPageContent() {
 
             <div className="space-y-8 mb-12">
               <div>
-                <h3 className="font-body text-xs font-semibold uppercase tracking-label text-white-300 mb-4">
-                  {t("offices.title")}
-                </h3>
-                {(["riyadh", "dubai", "london"] as const).map((office) => (
-                  <div key={office} className="mb-4">
-                    <p className="font-body text-sm font-semibold text-white-100">{t(`offices.${office}.city`)}</p>
-                    <p className="font-body text-sm text-white-300">{t(`offices.${office}.address`)}</p>
-                  </div>
-                ))}
-              </div>
-              <div>
                 <p className="font-body text-xs font-semibold uppercase tracking-label text-white-300 mb-2">{t("email.label")}</p>
                 <a href="mailto:enterprise@orabthic.com" className="font-body text-sm text-white-100 hover:underline">
                   enterprise@orabthic.com

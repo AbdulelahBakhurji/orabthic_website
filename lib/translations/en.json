@@ -962,21 +962,6 @@
   "contact": {
     "headline": "Let's Build Something\nRemarkable Together.",
     "subheadline": "Whether you need a demo, have a sales question, or want to explore a partnership — our team is ready to help.",
-    "offices": {
-      "title": "Offices",
-      "riyadh": {
-        "city": "Riyadh",
-        "address": "King Fahd Road, Olaya District, Riyadh 12211, Saudi Arabia"
-      },
-      "dubai": {
-        "city": "Dubai",
-        "address": "DIFC Gate Village, Building 9, Dubai, UAE"
-      },
-      "london": {
-        "city": "London",
-        "address": "1 Canada Square, Canary Wharf, London E14 5AB, UK"
-      }
-    },
     "email": {
       "label": "Email",
       "sales": "sales@orabthic.com",
